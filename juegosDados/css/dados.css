@@ -1,0 +1,23 @@
+.dado {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-size: cover;
+    animation: girarDado 1s ease-in-out;
+}
+
+@keyframes girarDado {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(1800deg); /* Hace girar el dado 5 veces */
+    }
+    100% {
+        transform: rotate(3600deg); /* Vuelve a la posición inicial */
+    }
+
+
+
+    
+}
